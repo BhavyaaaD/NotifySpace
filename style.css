@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body{
+    background-color: hsl(210, 60%, 98%);
+    font-size: 16px;
+}
+
+h2{ 
+    font-size:25px;
+    font-weight:800;
+}
+
+.notifications-container{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 60%;
+    border-radius:10px;
+    margin:5% auto;
+   
+
+}
+
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:5% 5%;
+}
+
+.heading{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+
+}
+
+.heading div{
+    margin-left:5%;
+    color:hsl(0, 0%, 100%);
+    background-color:  hsl(219, 85%, 26%);
+    font-size:15px;
+    padding:1% 7%;
+    border-radius: 5px;
+}
+
+.header button{
+    border:none;
+    cursor:pointer;
+    color:hsl(219, 12%, 42%);
+    background-color: hsl(0, 0%, 100%);
+    font-size : 15px;
+    font-weight: 500;
+}
+
+.notification{
+    margin: 1% 7%;
+    padding: 1%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size:16px;
+}
+
+.text-container{
+    width:85%;
+}
+.unread{
+    background-color: hsl(210, 60%, 98%);
+    border-radius: 10px;
+}
+
+.notification img{
+    height:45px;
+    width:45px;
+    margin:2%;
+}
+
+.space{
+    padding-right:1%;
+}
+
+
+
+.name{
+    font-weight: 800;
+}
+
+.text{
+    color:hsl(219, 12%, 42%);
+}
+
+.bold{
+    color:hsl(219, 12%, 42%);
+    font-weight: 800;
+}
+.time{
+    color: hsl(219, 12%, 42%);
+    margin-top:0.5%;
+}
+
+.blue{
+    color:hsl(219, 85%, 26%);
+    font-weight: 800;
+
+}
+
+.nest{
+    margin-left:10%;
+    width:85%;
+    padding: 3%;
+    border: 1px solid hsl(205, 33%, 90%);
+    color:hsl(219, 12%, 42%);
+
+}
+.nest:hover{
+    background-color: hsl(211, 68%, 94%);
+}
+
+.pos{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expand{
+    width:90%;
+}
+
+.dot{
+    width:8px;
+    height:8px;
+    background-color:hsl(1, 90%, 64%) ;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.active:hover{
+    color:hsl(219, 85%, 26%);
+    cursor:pointer;
+}
+

@@ -1,0 +1,56 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body{
+    background-color: hsl(210, 60%, 98%);
+    font-size: 10px;
+    height:100vh;
+}
+
+h2{ 
+    font-size:20px;
+    font-weight:800;
+}
+
+.notifications-container{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 100%;
+    border-radius:10px;
+    margin:0;
+   
+
+}
+.notification{
+    font-size:12px;
+    margin-bottom:3% 7%;
+}
+
+.text-container{
+    padding-left:1%;
+    width:80%;
+}
+.space{
+    padding-right:1.5%;
+}
+
+.nest{
+    margin-left:20%;
+}
+
+.expand{
+    width:85%;
+}
+
+.dot{
+    width:6px;
+    height:6px;
+}
+
+.time{
+    margin-top:1%;
+}
